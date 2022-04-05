@@ -31,8 +31,8 @@ Installer
 The installer goal is to install a version of Soviet-Linux on the user's computer.
 Planned functionality of the installer:
 
-1. Set root passeord
-2. create users
+1. Set root password
+2. Create users
 3. Partition the drive using (fdisk/cfdisk)
 4. Create a file system (ext4, btrfs, xfs, etc.)
 5. Specify mounting points for directories (/, /home, etc.)
