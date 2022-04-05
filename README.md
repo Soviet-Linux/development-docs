@@ -32,6 +32,7 @@ The CCCP
 --------
 
 The CCCP is the official soviet linux package manager , it can installe .spm files. See Installers/Package Managers
+To install .spm use --install parametter and to install binary packages in .tar.gz format use --binary (not yet implemented)
 
 The OUR
 -------
