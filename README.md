@@ -15,4 +15,5 @@ There are many different stratagies that have been preposed, including:
 1. Using torrents to distribute program files (and github repo for torrent files and checksums)
 2. Some central server to distribute program files 
 3. (Hybrid) Have people opt into opening a port and serving the package files they have installed to other people (checksums and lists of all programs on a github repo)
+4. (Our current system) Distribute build instructions and package lists on github and have people get them from the makers
 
