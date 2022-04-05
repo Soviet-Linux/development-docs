@@ -25,6 +25,23 @@ Installers/Package Managers
 
 We will be using the CCCP package manager ( CCCP Crafter of Controlled Packages ) , whiwh will be able to either installer binaries compiled with the --create parameter or sources from a .spm (soviet package manager ) file. To create .spm source packages you can look github.com/pkd667/Soviet
 
+Installer
+---------
+
+The installer goal is to install a version of Soviet-Linux on the user's computer.
+Planned functionality of the installer:
+
+1. Partition the drive using (fdisk/cfdisk)
+2. Create a file system (ext4, btrfs, xfs, etc.)
+3. Specify mounting points for directories (/, /home, etc.)
+4. Decompress and copy files from iso image
+5. Recompile the kernel following user configuration
+
+Ideas for possible other features:
+- Connect to a network
+- update system on install
+- network install (?)
+
 667Repos/Projects
 ==============
 
