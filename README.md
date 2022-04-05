@@ -23,17 +23,15 @@ There are many different stratagies that have been preposed, including:
 Installers/Package Managers
 ---------------------------
 
-I don't know what is going on with this. There is the CCCP thing that is being developed. In the Soviet channel, people were talking about having an installer and a package manager. I don't know what should be done for that. 
+We will be using the CCCP package manager ( CCCP Crafter of Controlled Packages ) , whiwh will be able to either installer binaries compiled with the --create parameter or sources from a .spm (soviet package manager ) file. To create .spm source packages you can look github.com/pkd667/Soviet
 
-If anybody has insight, please edit this section. You have write access to this repo.
-
-Repos/Projects
+667Repos/Projects
 ==============
 
 The CCCP
 --------
 
-People working on the CCCP right now, please explain how it works and the functions in it right here.
+The CCCP is the official soviet linux package manager , it can installe .spm files. See Installers/Package Managers
 
 The OUR
 -------
@@ -47,18 +45,14 @@ Login for live ISO
 ------------------
 
 Username: root
-Password: 200489
+Password: communism>capitalism
 
 Tip for people using a qwerty keyboard: You have to hold shift to type numbers
+fuck dont show this password and forget about it please
 
 Changing layout to qwerty
 -------------------------
 
-Use the command:
+No need I will fix it very soon 
 
-`loadkeys /usr/share/keymaps/i386/qwerty/us.map.gz`
-
-Translated to the keys pressed on a qwerty keyboard, that is:
-
-`loqdkeys >usr>shqre>key;qps>i#*&>azerty>us<;qp<gw`
 
