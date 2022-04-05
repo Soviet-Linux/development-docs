@@ -31,16 +31,17 @@ Installer
 The installer goal is to install a version of Soviet-Linux on the user's computer.
 Planned functionality of the installer:
 
-1. Partition the drive using (fdisk/cfdisk)
-2. Create a file system (ext4, btrfs, xfs, etc.)
-3. Specify mounting points for directories (/, /home, etc.)
-4. Decompress and copy files from iso image
-5. Recompile the kernel following user configuration
+1. Set root passeord
+2. create users
+3. Partition the drive using (fdisk/cfdisk)
+4. Create a file system (ext4, btrfs, xfs, etc.)
+5. Specify mounting points for directories (/, /home, etc.)
+6. Decompress and copy files from iso image
+7. Recompile the kernel following user configuration
 
 Ideas for possible other features:
 - Connect to a network
 - update system on install
-- network install (?)
 
 667Repos/Projects
 ==============
