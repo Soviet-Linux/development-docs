@@ -23,7 +23,8 @@ There are many different stratagies that have been preposed, including:
 Installers/Package Managers
 ---------------------------
 
-We will be using the CCCP package manager ( CCCP Crafter of Controlled Packages ) , whiwh will be able to either installer binaries compiled with the --create parameter or sources from a .spm (soviet package manager ) file. To create .spm source packages you can look github.com/pkd667/Soviet
+We will be using the CCCP package manager ( CCCP Crafter of Controlled Packages ) ,
+ which will be able to either installer binaries compiled with the --create parameter or sources from a .spm (soviet package manager ) file. To create .spm source packages look into the CCCP repo.
 
 Installer
 ---------
@@ -64,14 +65,6 @@ Login for live ISO
 ------------------
 
 Username: root
-Password: communism>capitalism
-
-Tip for people using a qwerty keyboard: You have to hold shift to type numbers
-fuck dont show this password and forget about it please
-
-Changing layout to qwerty
--------------------------
-
-No need I will fix it very soon 
+Password : communism>capitalism 
 
 
