@@ -38,7 +38,8 @@ Planned functionality of the installer:
 4. Create a file system (ext4, btrfs, xfs, etc.)
 5. Specify mounting points for directories (/, /home, etc.)
 6. Decompress and copy files from iso image
-7. Recompile the kernel following user configuration
+7. Install Grub (grub-install)
+8. Recompile the kernel following user configuration
 
 Ideas for possible other features:
 - Connect to a network
