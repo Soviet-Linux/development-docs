@@ -1,4 +1,4 @@
-# <p align="center">Development docs of [Soviet](https://github.com/Soviet-Linux/)</p>
+
 
 ## Sections:
 
