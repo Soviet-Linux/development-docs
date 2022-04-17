@@ -9,4 +9,28 @@ There have been numerous various strategies proposed, including:
 1. (Hybrid) Allow individuals to choose whether or not to open a port and serve the package files they have installed to others (checksums and lists of all programs on a github repo)
 1. (This is our current system.) Distribute build instructions and package lists on github and direct users to the creators.
 
-If you want to make a package see the [docs](https://github.com/Soviet-Linux/delevopment-docs/cccp)
+Follow this example to create a package:
+```
+{
+    "name" : "<package name>",
+    "type" : "<src,bin,local>",
+    "version" : "<version>",
+    "dependencies" : ["<a dependencie>","<other dependencie>"],
+    "info" : 
+    {
+        "download" : "<download command>",
+        "build" : "<build command>",
+        "archive" : "<archive location>"
+    }, 
+    "install" : 
+    [
+        {
+            "file" : "<a file in the build dir>" ,
+            "destination" : "<where the file should be installed>" 
+        },
+        {
+            "file" : "<antoher file in the build dir>" ,
+            "destination" : "<where the file should be installed>"
+        }
+    ]
+```
