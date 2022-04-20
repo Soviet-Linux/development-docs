@@ -22,7 +22,7 @@ Follow this example to create a package:
         "build" : "<build command>",
         "special" : "<special command>"
     },
-    "locations" : []
+    "locations" : ["<location>","<other location>"]
 }
 ```
 if its a source package leave the location empty
