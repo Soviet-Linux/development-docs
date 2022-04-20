@@ -20,17 +20,38 @@ Follow this example to create a package:
     {
         "download" : "<download command>",
         "build" : "<build command>",
-        "archive" : "<archive location>"
-    }, 
-    "install" : 
-    [
-        {
-            "file" : "<a file in the build dir>" ,
-            "destination" : "<where the file should be installed>" 
-        },
-        {
-            "file" : "<antoher file in the build dir>" ,
-            "destination" : "<where the file should be installed>"
-        }
-    ]
+        "special" : "<special command>"
+    },
+    "locations" : []
+}
 ```
+if its a source package leave the location empty
+
+1. Name = The name of the package
+
+1. Types :
+    1. "src" is for source packages that need to download the source files.
+
+    1. "bin" is for binary packages created using --create option.
+
+    1. "local" is for sources packages that have their sources in the
+    
+    SRC_DIR "/var/cccp/src"
+
+
+
+1. Version = The package version. (UNUSED)
+
+1. Dependencies = Package dependencies, such as software required to build or download the package.
+
+1. Download = The command for downloading the sources in "src" packages. (If it is not used, leave it blank.)
+
+1. Build = The command used to build the package. The target directory must be $BUILD_ROOT.
+   
+   (example: `make && make prefix=$BUILD_ROOT install`)
+
+1. Special =
+If you need to run a command after the installation is complete. (This is not yet implemented.)
+
+1. Locations =
+When you install or build a package, CCCP automatically generates the location list. Leave it blank.
