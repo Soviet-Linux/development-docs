@@ -21,6 +21,12 @@ boot on a drive with a gpt label. We suggest you set the label of your drive to
 dos and make sure the partition created is set to be bootable. You can attempt
 to make a Live USB on a gpt disk but you wont receive any support.
 
+### Note on using the ISO on a Virtual Machine
+
+It isn't currently possible to use the ISO on a virtual machine. We are currently
+working on finding a solution to this. We recommend to use the live usb on
+real hardware for the time being.
+
 ## Formatting the USB drive
 
 First step in the creation process is formatting your USB drive and create the
