@@ -66,7 +66,7 @@ This step is **VERY** important! Failure to read and follow the steps in the
 `readme.txt` file will result in an error when trying to boot from the Live USB
 so do that!
 
-## CONCLUSION
+## Conclusion
 
 Once you have completed all steps in this guide and in the `readme.txt` you are
 done. You now can reboot your system and boot into your newly created Live USB.
