@@ -14,7 +14,7 @@ Inside the MAIN_DIR there are :
   5. WORK_DIR (usually "/var/cccp/bin") where all of the work will be done (for example, the source code will be downloaded and built in it) MAKE_DIR (WORK_DIR + "sources/") BUILD DIR (WORK DIR + "build/") is where Binaries are kept and tested at this location. .
 ## Options
   ### Special options 
-  ```-d``` option is used if the first place (ex : ``` cccp -d --someting``` not ``` cccp --something -d ```)\
+  ```-d``` option is used if the first place (ex : ``` cccp -d --something``` not ``` cccp --something -d ```)\
   ### Regular options
   1. ```--install``` The option is used to install a source package from the PKG_DIR directory.\
   1. ```--create``` This option is used to generate a binary package from a source package. The package will be saved in the BIN_DIR directory.\
