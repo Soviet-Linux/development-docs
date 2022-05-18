@@ -9,7 +9,9 @@ There have been numerous various strategies proposed, including:
 1. (Hybrid) Allow individuals to choose whether or not to open a port and serve the package files they have installed to others (checksums and lists of all programs on a github repo)
 1. (This is our current system.) Distribute build instructions and package lists on github and direct users to the creators.
 
-Follow this example to create a package:
+[Spm-helper](https://github.com/Soviet-Linux/spm-helper) can be used to create a package. A simple tool for creating packages (Warning: the code is garbage; if you know [rust](https://www.rust-lang.org/), you can help improve it). \
+you can download the tool from [HERE](https://github.com/Soviet-Linux/spm-helper) \
+ or you can follow this example to create a package:
 ```
 {
     "name" : "<package name>",
