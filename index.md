@@ -1,6 +1,14 @@
+# Useful Information
 
 
-## Sections:
+Login for live ISO:
+------------------
+
+Username: root
+
+Password : communism>capitalism
+
+## User docs:
 
 ## 1:  [The Packages/Repo](https://docs.sovietlinux.ml/repo)
 This is the primary repository for CCCP and Soviet Linux. Because the CCCP was cluttered, we decided to separate the package files.
@@ -11,13 +19,7 @@ The installer of the Soviet-Linux operating system. The purpose of the installer
 ## 4: [Live USB Creation](https://docs.sovietlinux.ml/liveusb)
 Steps to create a Live USB for Soviet Linux
 
+## Developer docs(NOT DONE):
 
-# Useful Information
+## [dont click this](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-
-Login for live ISO:
-------------------
-
-Username: root
-
-Password : communism>capitalism
