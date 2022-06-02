@@ -2,9 +2,9 @@ We'll be utilizing the [CCCP](https://github.com/Soviet-Linux/CCCP) package mana
 This package manager can use .spm file to build source packages or a tar.gz archive with precompiled binaries.
 ## File organization
 The CCCP does all of its work in a directory defined by the constant MAIN_DIR in the main.cpp file.\
-MAIN_DIR is usually "/var/cccp".\
+MAIN_DIR is usually "/var/cccp".
 
-Note: You may use the cccp to install packages on another system by changing the ROOT string to the path to the other system's "/" directory.\
+Note: You may use the cccp to install packages on another system by changing the ROOT string to the path to the other system's "/" directory.
 
 Inside the MAIN_DIR there are :
   1.  PKG_DIR (usually ```/var/cccp/pkg/```) The source package files (```.spm```) are stored here. 
