@@ -14,7 +14,7 @@ Inside the MAIN_DIR there are :
   5. WORK_DIR (usually ```/var/cccp/bin```) where all of the work will be done (for example, the source code will be downloaded and built in it) MAKE_DIR (```WORK_DIR + "sources/"```) BUILD DIR (```WORK DIR + "build/"```) is where Binaries are kept and tested at this location. .
 ## Options
   ### Special options 
-  ```-d``` option is used if the first place (ex : ``` cccp -d --something``` not ``` cccp --something -d ```)\
+  ```-d``` or ```--debug ``` - enable debug mode \
   ### Regular options
   1. ```-i``` or ```--install``` - Install a package from the repos!  \
   1. ```-p``` or ```--package``` - Install a package file!  \
@@ -23,8 +23,7 @@ Inside the MAIN_DIR there are :
   1. ```-c``` or ```--check``` -   Check if a package is installed!  \
   1. ```-h``` or ```--help```  -   Print this help message!  \
   1. ```-s``` or ```--sync```  -   Synchronize package file!  \
-  1. ```--create``` This option is used to generate a binary package from a source package. The package will be saved in the BIN_DIR directory.\
-  1. ```--binary``` The option is used to install a binary package (tar.gz format) from the BIN_DIR directory..\
-  1. ```--remove``` The option is used to uninstall a previously installed package. (It has a few issues.)\
+  1. ```-b``` or ```--binary``` - install a binary package (.bin.spm.tar.gz format) \
+
 
 To learn how to make a package see the [docs](https://docs.sovietlinux.ml/repo)
