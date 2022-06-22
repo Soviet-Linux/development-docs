@@ -118,10 +118,8 @@ structures and provide a user id.
 Network
 -------
 
-As of
-
-oviet Linux only officially supports only wired connections, so
-revolution-installer will support only those as well. This will be
+Soviet Linux only officially supports only wired connections at the time of
+writing, so revolution-installer will support only those as well. This will be
 changed in future versions of the software.
 
 Installation Medium Selection
@@ -154,9 +152,8 @@ SOURCE
 Disk partition
 --------------
 
-Disk partition, in Revolution-installer, occurs trough the use of partx
-as a backend. The API will simply act as a buffer between the front-end
-and partx. It will also simplify the interface.
+Disk partition will occur trough the use of libparted, which is part of the
+parted package.
 
 File system
 -----------
@@ -209,42 +206,3 @@ extension and they should follow a specified standard and syntax.
 
 To install in the system move the executable into `/bin` or `/usr/bin` if `/bin`
 is a symlink.
-
-## Functionality
-To install the system, the installer will go through the following steps.:
-
-1. Display the various keyboard layouts and prompt the user to select a valid keyboard layout.
-2. Prompt the user for a hostname.
-3. Display the available locales and prompt the user to select one.
-4. Display available time zones and prompt the user for a valid one
-5. Prompt the user for a root password
-6. Prompt the user for a username and password. Allow also the user to set
-user groups
-7. Display available devices and prompt the user for a device where to install
-GRUB
-8. Prompt the user for a choice of cfdisk or fdisk, if user chooses cfdisk
-display the devices available and prompt the user for one
-9. Display and prompt the user for a device and a file system
-10. Review the installation settings
-11. Install the system:
-12. Format and install filesystem
-13. Mount the drives
-14. Copy the system
-15. Set the hostname
-16. Set the locale
-17. Set the timezone
-18. Set the timezone
-19. Set root password
-20. Create the username and set groups
-21. Create /etc/fstab
-22. Install GRUB
-23. Reboot
-
-## TODO
-- Add user creation
-- Set root password
-- Set keyboard layout
-- Set hostname
-- Set locale and timezone
-- Install GRUB
-- Recompile kernel
