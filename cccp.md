@@ -3,14 +3,14 @@ This package manager can use .spm file to build source packages or a tar.gz arch
 
 ## Executable organisation 
  The soviet packages manager is conposed of two parts : 
- ### libspm
+### libspm
   The libspm , a shared libray ( ```libspm.so ```) which contains all code necessary to manage package on a soviet system.  
   It contains the soviet namespace which itself contains  the package class , used to create package object , and to install them , and the soviet utilities , like  ```soviet::format ``` ,  ```soviet::exec ```.\
   It also includes an interface function , the  ```cccp() ``` function which accept an int parameter whcich will be converted to an enum to do stuff like installing and uninstalling packages . \
   If you xant more details bout this , go the  ```inlude/libspm.hpp ``` in the CCCP repo.
   
 
-  ### the frontend
+### the frontend
 
 To transform a cli argument to a call to the  ```cccp() ``` function from the libspm we need a frontend. I wrote a simlpe c++ executable that does that in the CCCP repo , but it could be better , especially in languages like RUST.
 
