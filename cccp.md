@@ -50,7 +50,7 @@ ex :  ```ROOT=/mnt/arch ``` to change the cccp root to  ```/mnt/arch ``` .
 You can also specify package repos : 
 ex :  ``` REPOS=http://localhost:8080 https://our.sovietlinux.ml ``` 
 
-⚠️WARNING⚠️ This file is a work in progress ⚠️WARNING⚠️
+# ⚠️WARNING⚠️ This file is a work in progress ⚠️WARNING⚠️
 
 
 To learn how to make a package see the [docs](https://docs.sovietlinux.ml/repo)
