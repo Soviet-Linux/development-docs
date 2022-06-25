@@ -2,7 +2,7 @@ We'll be utilizing the [CCCP](https://github.com/Soviet-Linux/CCCP) package mana
 This package manager can use .spm file to build source packages or a tar.gz archive with precompiled binaries.
 
 ## Executable organisation 
- The soviet packages manager is conposed of two parts : 
+ The soviet packages manager is conposed of two parts : \
 ### libspm
   The libspm , a shared libray ( ```libspm.so ```) which contains all code necessary to manage package on a soviet system.  
   It contains the soviet namespace which itself contains  the package class , used to create package object , and to install them , and the soviet utilities , like  ```soviet::format ``` ,  ```soviet::exec ```.\
@@ -50,7 +50,7 @@ ex :  ```ROOT=/mnt/arch ``` to change the cccp root to  ```/mnt/arch ``` .
 You can also specify package repos : 
 ex :  ``` REPOS=http://localhost:8080 https://our.sovietlinux.ml ``` 
 
-# ⚠️WARNING⚠️ This file is a work in progress ⚠️WARNING⚠️
+## ⚠️WARNING⚠️ This file is a work in progress ⚠️WARNING⚠️
 
 
 To learn how to make a package see the [docs](https://docs.sovietlinux.ml/repo)
