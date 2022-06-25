@@ -10,7 +10,7 @@ This package manager can use .spm file to build source packages or a tar.gz arch
   If you xant more details bout this , go the  ```inlude/libspm.hpp ``` in the CCCP repo.
   
 
- ### the frontend
+  ### the frontend
 
 To transform a cli argument to a call to the  ```cccp() ``` function from the libspm we need a frontend. I wrote a simlpe c++ executable that does that in the CCCP repo , but it could be better , especially in languages like RUST.
 
